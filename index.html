@@ -1,49 +1,42 @@
 <!DOCTYPE html>
 <html lang="pl">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Mixa</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-    <link
-      rel="stylesheet"
-      href="https://unpkg.com/swiper@7/swiper-bundle.min.css"
-    />
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <div class="es-mixa" id="es-mixa">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mixa</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="./styles/swiper.min.css" />
+  <link rel="stylesheet" href="./styles/style.css" />
+</head>
+
+<body>
+  <div id="es-rc">
+    <div id="es-rc-content">
       <div class="es-kv">
         <div class="es-kv__container">
           <div class="es-kv__logo es-kv__logo--mb">
-            <img src="images/logo.png" alt="" class="es-kv__img" />
+            <img src="./images/logo.png" alt="" class="es-kv__img" />
           </div>
           <div class="es-kv__photo">
-            <img
-              src="images/photo.png"
-              alt=""
-              class="es-kv__img es-kv__img--photo"
-            />
-            <h2 class="es-kv__title">
+            <img src="./images/photo.jpg" alt="" class="es-kv__img es-kv__img--photo" />
+            <p class="es-kv__title">
               Moją receptą<br />
               na wrażliwą skórę<br />
               jest Mixa.
-            </h2>
+            </p>
           </div>
           <div class="es-kv__content">
             <div class="es-kv__logo es-kv__logo--dt">
-              <img src="images/logo.png" alt="" class="es-kv__img" />
+              <img src="./images/logo.png" alt="" class="es-kv__img" />
             </div>
             <div class="es-kv__wrapper">
               <div class="es-kv__packshot">
-                <img src="images/packshot.png" alt="" class="es-kv__img" />
-                <img
-                  src="images/plus.png"
-                  alt=""
-                  class="es-kv__img es-kv__img--plus"
-                />
+                <img src="./images/packshot.png" alt="" class="es-kv__img" />
+                <img src="./images/plus.png" alt="" class="es-kv__img es-kv__img--plus" />
               </div>
               <div class="es-kv__texts">
                 <p class="es-kv__number">5%</p>
@@ -52,10 +45,13 @@
                 <p class="es-kv__text">Kwas hialuronowy</p>
               </div>
             </div>
-            <div class="es-kv__label">
-              <p class="es-kv__name">Hyalurogel Serum</p>
+            <div class="es-kv__bottom">
+              <div class="es-kv__label">
+                <p class="es-kv__name">Hyalurogel Serum</p>
+              </div>
+              <p class="es-kv__disc">Testowane na 100% skórze wrażliwej</p>
             </div>
-            <p class="es-kv__disc">Testowane na 100% skórze wrażliwej</p>
+
           </div>
         </div>
       </div>
@@ -63,20 +59,12 @@
       <div class="es-benefits">
         <div class="es-benefits__container">
           <div class="es-benefits__image">
-            <img
-              src="images/photo-benefits.png"
-              alt=""
-              class="es-benefits__img es-benefits__img--image"
-            />
+            <img src="./images/photo-benefits.png" alt="" class="es-benefits__img es-benefits__img--image" />
           </div>
           <div class="es-benefits__content">
             <div class="es-benefits__benefit">
               <div class="es-benefits__icon">
-                <img
-                  src="images/benefit-1.png"
-                  alt=""
-                  class="es-benefits__img"
-                />
+                <img src="./images/benefit-1.png" alt="" class="es-benefits__img" />
               </div>
               <p class="es-benefits__text">
                 Formuła stworzona pod kontrolą medyczną
@@ -84,11 +72,7 @@
             </div>
             <div class="es-benefits__benefit">
               <div class="es-benefits__icon">
-                <img
-                  src="images/benefit-2.png"
-                  alt=""
-                  class="es-benefits__img"
-                />
+                <img src="./images/benefit-2.png" alt="" class="es-benefits__img" />
               </div>
               <p class="es-benefits__text">
                 Dla skóry wrażliwej, normalnej i suchej
@@ -96,29 +80,21 @@
             </div>
             <div class="es-benefits__benefit">
               <div class="es-benefits__icon">
-                <img
-                  src="images/benefit-3.png"
-                  alt=""
-                  class="es-benefits__img"
-                />
+                <img src="./images/benefit-3.png" alt="" class="es-benefits__img" />
               </div>
-              <p class="es-benefits__text">Hipoalergiczne</p>
+              <p class="es-benefits__text">Hipoalergiczna formuła</p>
             </div>
           </div>
         </div>
       </div>
 
       <div class="es-features">
-        <h3 class="es-features__title">Poznaj ekspercką moc naszego serum!</h3>
+        <p class="es-features__title">Poznaj ekspercką moc naszego serum!</p>
         <div class="es-features__container">
           <div class="es-features__content">
             <div class="es-features__feature">
               <div class="es-features__icon">
-                <img
-                  src="images/feature-1.png"
-                  alt=""
-                  class="es-features__img"
-                />
+                <img src="./images/feature-1.png" alt="" class="es-features__img" />
               </div>
               <div class="es-feature__texts">
                 <p class="es-features__point">Nawilżenie przez 24h*</p>
@@ -131,56 +107,40 @@
             </div>
             <div class="es-features__feature">
               <div class="es-features__icon">
-                <img
-                  src="images/feature-2.png"
-                  alt=""
-                  class="es-features__img"
-                />
+                <img src="./images/feature-2.png" alt="" class="es-features__img" />
               </div>
               <div class="es-feature__texts">
-                <p class="es-features__point">Sprężystość i zdrowy wygląd</p>
+                <p class="es-features__point">Sprężystość i&nbsp;zdrowy wygląd</p>
                 <p class="es-features__text">
                   Po 4 tygodniach skóra jest bardziej miękka, gładsza, promienna
-                  i wygląda na wypełnioną.
+                  i&nbsp;wygląda na wypełnioną.
                 </p>
               </div>
             </div>
             <div class="es-features__feature">
               <div class="es-features__icon">
-                <img
-                  src="images/feature-3.png"
-                  alt=""
-                  class="es-features__img"
-                />
+                <img src="./images/feature-3.png" alt="" class="es-features__img" />
               </div>
               <div class="es-feature__texts">
                 <p class="es-features__point">Natychmiastowe ukojenie</p>
                 <p class="es-features__text">
                   Łagodzi skórę wrażliwą od pierwszego zastosowania, redukując
-                  uczucie dyskomfortu i ściągnięcia.
+                  uczucie dyskomfortu i&nbsp;ściągnięcia.
                 </p>
               </div>
             </div>
           </div>
           <div class="es-features__image">
-            <img
-              src="images/photo-features.png"
-              alt=""
-              class="es-features__img"
-            />
+            <img src="./images/photo-features.png" alt="" class="es-features__img" />
           </div>
         </div>
       </div>
 
       <div class="es-info">
-        <h3 class="es-info__title">Potwierdzona skuteczność</h3>
+        <p class="es-info__title">Potwierdzona skuteczność</p>
         <div class="es-info__container">
           <div class="es-info__image">
-            <img
-              src="images/photo-info.png"
-              alt=""
-              class="es-info__img es-info__img--image"
-            />
+            <img src="./images/photo-info.png" alt="" class="es-info__img es-info__img--image" />
           </div>
           <div class="es-info__info">
             <div class="es-info__content">
@@ -218,24 +178,26 @@
       </div>
 
       <div class="es-formula">
-        <h3 class="es-formula__title">
+        <p class="es-formula__title">
           Skoncentrowana siła składników aktywnych<br />
           <strong>w&nbsp;5% formule</strong>
-        </h3>
+        </p>
         <div class="es-formula__container">
           <div class="es-formula__single">
             <div class="es-formula__tile">
-              <img src="images/ingr-1.png" alt="" class="es-formula__img" />
+              <img src="./images/ingr-1.png" alt="" class="es-formula__img" />
+              <div class="es-formula__overlay"></div>
               <p class="es-formula__label">niacynamid</p>
             </div>
             <p class="es-formula__text">
               Wygładza skórę oraz przywraca jej sprężystość i elastyczność.
-              Reguluje aktywność gruczołów łojowych i działa antybakteryjnie.
+              Reguluje aktywność gruczołów łojowych i&nbsp;działa antybakteryjnie.
             </p>
           </div>
           <div class="es-formula__single">
             <div class="es-formula__tile">
-              <img src="images/ingr-2.png" alt="" class="es-formula__img" />
+              <img src="./images/ingr-2.png" alt="" class="es-formula__img" />
+              <div class="es-formula__overlay"></div>
               <p class="es-formula__label">pantenol</p>
             </div>
             <p class="es-formula__text">
@@ -245,7 +207,8 @@
           </div>
           <div class="es-formula__single">
             <div class="es-formula__tile">
-              <img src="images/ingr-3.png" alt="" class="es-formula__img" />
+              <img src="./images/ingr-3.png" alt="" class="es-formula__img" />
+              <div class="es-formula__overlay"></div>
               <p class="es-formula__label es-formula__label--big">
                 kwas hialuronowy
               </p>
@@ -260,18 +223,19 @@
       </div>
 
       <div class="es-cross">
-        <h3 class="es-cross__title">Zadbaj o rutynę pielęgnacyjną!</h3>
+        <p class="es-cross__title">Zadbaj o rutynę pielęgnacyjną!</p>
         <div class="es-cross__product">
           <div class="es-cross__content">
             <p class="es-cross__number es-cross__number--1">1</p>
             <p class="es-cross__step">Oczyszczenie</p>
             <p class="es-cross__text">
-              Zmyj makijaż i oczyść twarz płynem micelarnym Optymalna Tolerancja i&nbsp;przygotuj skórę na dalszą pielęgnację.
+              Zmyj makijaż i oczyść twarz płynem micelarnym Optymalna Tolerancja i&nbsp;przygotuj skórę na dalszą
+              pielęgnację.
             </p>
             <a href="" target="_blank" class="es-cross__link">sprawdź</a>
           </div>
           <div class="es-cross__packshot">
-            <img src="images/cross-1.png" alt="" class="es-cross__img" />
+            <img src="./images/cross-1.png" alt="" class="es-cross__img" />
           </div>
         </div>
         <div class="es-cross__product">
@@ -288,7 +252,7 @@
             <a href="" target="_blank" class="es-cross__link">sprawdź</a>
           </div>
           <div class="es-cross__packshot">
-            <img src="images/cross-2.png" alt="" class="es-cross__img" />
+            <img src="./images/cross-2.png" alt="" class="es-cross__img" />
           </div>
         </div>
         <div class="es-cross__product">
@@ -305,40 +269,22 @@
             <a href="" target="_blank" class="es-cross__link">sprawdź</a>
           </div>
           <div class="es-cross__packshot">
-            <img src="images/cross-3.png" alt="" class="es-cross__img" />
+            <img src="./images/cross-3.png" alt="" class="es-cross__img" />
           </div>
         </div>
       </div>
 
-      <section class="es-video">
-        <div class="es-video__container">
-          <iframe
-            class="es-video__iframe"
-            width="100%"
-            height="auto"
-            src="https://www.youtube.com/embed/8_pufhTKDco"
-            frameborder="0"
-            allow="accelerometer; encrypted-media; gyroscope; picture-in-picture"
-            allowfullscreen
-          ></iframe>
-        </div>
-      </section>
-
       <div class="es-reviews">
-        <h3 class="es-reviews__title">Opinie konsumentek</h3>
+        <p class="es-reviews__title">Opinie konsumentek</p>
         <div class="es-reviews__wrapper">
           <div class="es-reviews__quote">
-            <img src="images/quote.png" alt="" class="es-reviews__img" />
+            <img src="./images/quote.png" alt="" class="es-reviews__img" />
           </div>
           <div class="es-reviews__container">
-            <div class="swiper mySwiper">
+            <div class="swiper es-swiper">
               <div class="swiper-wrapper es-reviews__slider">
                 <div class="swiper-slide es-reviews__slide">
-                  <img
-                    src="images/stars.png"
-                    alt=""
-                    class="es-reviews__img es-reviews__img--stars"
-                  />
+                  <img src="./images/stars.png" alt="" class="es-reviews__img es-reviews__img--stars" />
                   <p class="es-reviews__text">
                     <strong>Cudowny!</strong><br /><br />
 
@@ -351,11 +297,7 @@
                   </p>
                 </div>
                 <div class="swiper-slide es-reviews__slide">
-                  <img
-                    src="images/stars.png"
-                    alt=""
-                    class="es-reviews__img es-reviews__img--stars"
-                  />
+                  <img src="./images/stars.png" alt="" class="es-reviews__img es-reviews__img--stars" />
                   <p class="es-reviews__text">
                     <strong>Mój ideał </strong><br /><br />
 
@@ -369,11 +311,7 @@
                   </p>
                 </div>
                 <div class="swiper-slide es-reviews__slide">
-                  <img
-                    src="images/stars.png"
-                    alt=""
-                    class="es-reviews__img es-reviews__img--stars"
-                  />
+                  <img src="./images/stars.png" alt="" class="es-reviews__img es-reviews__img--stars" />
                   <p class="es-reviews__text">
                     <strong>Rewelacja!</strong><br /><br />
 
@@ -389,11 +327,7 @@
                   </p>
                 </div>
                 <div class="swiper-slide es-reviews__slide">
-                  <img
-                    src="images/stars.png"
-                    alt=""
-                    class="es-reviews__img es-reviews__img--stars"
-                  />
+                  <img src="./images/stars.png" alt="" class="es-reviews__img es-reviews__img--stars" />
                   <p class="es-reviews__text">
                     <strong>Bomba nawilżająca dla twarzy</strong><br /><br />
 
@@ -409,11 +343,7 @@
                   </p>
                 </div>
                 <div class="swiper-slide es-reviews__slide">
-                  <img
-                    src="images/stars.png"
-                    alt=""
-                    class="es-reviews__img es-reviews__img--stars"
-                  />
+                  <img src="./images/stars.png" alt="" class="es-reviews__img es-reviews__img--stars" />
                   <p class="es-reviews__text">
                     <strong>Istne złoto </strong><br /><br />
 
@@ -434,11 +364,7 @@
                   </p>
                 </div>
                 <div class="swiper-slide es-reviews__slide">
-                  <img
-                    src="images/stars.png"
-                    alt=""
-                    class="es-reviews__img es-reviews__img--stars"
-                  />
+                  <img src="./images/stars.png" alt="" class="es-reviews__img es-reviews__img--stars" />
                   <p class="es-reviews__text">
                     <strong>Cudowny kosmetyk!</strong><br /><br />
 
@@ -451,34 +377,21 @@
                   </p>
                 </div>
               </div>
-              <div class="swiper-pagination"></div>
-              <div class="swiper-button-next">
-                <img src="images/arrow-right.png" alt="" class="es-kv__img" />
+              <div class="swiper-pagination es-swiper-pagination"></div>
+              <div class="swiper-button-next es-swiper-button-next">
+                <img src="./images/arrow-right.png" alt="" class="es-kv__img" />
               </div>
-              <div class="swiper-button-prev">
-                <img src="images/arrow-left.png" alt="" class="es-kv__img" />
+              <div class="swiper-button-prev es-swiper-button-prev">
+                <img src="./images/arrow-left.png" alt="" class="es-kv__img" />
               </div>
             </div>
           </div>
         </div>
       </div>
     </div>
-    <script src="slider.js"></script>
-    <script>
-      const swiper = new Swiper('.swiper', {
-        loop: true,
-        pagination: {
-          el: '.swiper-pagination',
-          clickable: true,
-          renderBullet: function (index, className) {
-            return '<span class="' + className + '">' + (index + 1) + '</span>'
-          }
-        },
-        navigation: {
-          nextEl: '.swiper-button-next',
-          prevEl: '.swiper-button-prev'
-        }
-      })
-    </script>
-  </body>
+  </div>
+  <script src="./scripts/swiper.js"></script>
+  <script src="./scripts/swiperInit.js"></script>
+</body>
+
 </html>
